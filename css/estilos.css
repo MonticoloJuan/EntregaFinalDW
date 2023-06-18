@@ -6,19 +6,22 @@ body{
     font-family: 'Montserrat', sans-serif;
     background: linear-gradient(violet,red,orange,yellow,white);
 }
-.Header{
-    width: 100%;
-    height: 15%;
-    min-height: 5%;
+.grid-container{
+    display: grid;
+    grid-template-areas: 'header header header header header'
+                         'nav nav nav nav nav'
+                         'muestra muestra detalle detalle detalle'
+                         'footer footer footer mapa mapa';
+}
+header{
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: underline;
+    grid-area: header;
 }
-.nav{
-    height: 5%;
-    width: 100%;
-    font-size: 30px;
+nav{
+    grid-area: nav;
 }
 .aindex{
     color: black;
@@ -30,88 +33,60 @@ body{
 }
 .Muestra{
     float: left;
-    width: 35%;
-    height: 65%;
     background-size: cover;
     background-color: white;
+    grid-area: muestra;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 2fr 2fr 2fr;
+    row-gap: -20px;
 }
 .Productos{
     display: inline-block;
-    width: 100%;
-    height: 15%;
     background-color: lightblue;
+    grid-column: 1/4;
 }
 .img1{
-    display: inline-block;
-    width: 32.5%;
-    height: 27.5%;
     background-image:url(img/trozado.png);
-    background-size: cover;
-    
+    background-repeat: no-repeat;
 }
 .img2{
-    display: inline-block;
-    width: 32.5%;
-    height: 27.5%;
     background-image:url(img/patamuslo.png);
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 .img3{
-    display: inline-block;
-    width: 32.5%;
-    height: 27.5%;
     background-image:url(img/polloentero.png);
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 .img4{
-    display: inline-block;
-    width: 32.5%;
-    height: 27.5%;
     background-image:url(img/pechuga.png);
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 .img5{
-    display: inline-block;
-    width: 32.5%;
-    height: 27.5%;
     background-image:url(img/pechugadeshuesada.png);
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 .img6{
-    display: inline-block;
-    width: 32.5%;
-    height: 27.5%;
     background-image:url(img/bife.png);
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 .img7{
-    display: inline-block;
-    width: 32.5%;
-    height: 27.5%;
     background-image:url(img/milanesa.png);
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 .img8{
-    display: inline-block;
-    width: 32.5%;
-    height: 27.5%;
     background-image:url(img/albondiga.png);
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 .img9{
-    display: inline-block;
-    width: 32.5%;
-    height: 27.5%;
     background-image:url(img/arrollado.png);
-    background-size:cover;
+    background-repeat: no-repeat;
 }
 .Detalle{
-    display: inline-block;
-    width: 63%;
-    height: 65%;
     border-radius: 15px;
     border: black solid;
     font-size: 20px;
+    grid-area: detalle;
 }
 ol{
     margin-left: 5%;
@@ -119,16 +94,12 @@ ol{
 ul{
     margin-left: 5%;
 }
-.Footer{
-    float: left;
-    width: 65%;
-    height: 25%;
+footer{
     background-color: #77DD77;
     font-size: 25px;
+    grid-area: footer;
 }
 .mapa{
-    display: inline-block;
-    width: 35%;
-    height: 25%;
     background-size: cover;
+    grid-area: mapa;
 }
