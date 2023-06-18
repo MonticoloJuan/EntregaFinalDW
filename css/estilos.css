@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(violet,red,orange,yellow,white);
+}
+.Header{
+    width: 100%;
+    height: 15%;
+    min-height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+.nav{
+    height: 5%;
+    width: 100%;
+    font-size: 30px;
+}
+.aindex{
+    color: black;
+    text-decoration: underline;
+}
+.aprecios{
+    color: black;
+    text-decoration:underline;
+}
+.Muestra{
+    float: left;
+    width: 35%;
+    height: 65%;
+    background-size: cover;
+    background-color: white;
+}
+.Productos{
+    display: inline-block;
+    width: 100%;
+    height: 15%;
+    background-color: lightblue;
+}
+.img1{
+    display: inline-block;
+    width: 32.5%;
+    height: 27.5%;
+    background-image:url(img/trozado.png);
+    background-size: cover;
+    
+}
+.img2{
+    display: inline-block;
+    width: 32.5%;
+    height: 27.5%;
+    background-image:url(img/patamuslo.png);
+    background-size: cover;
+}
+.img3{
+    display: inline-block;
+    width: 32.5%;
+    height: 27.5%;
+    background-image:url(img/polloentero.png);
+    background-size: cover;
+}
+.img4{
+    display: inline-block;
+    width: 32.5%;
+    height: 27.5%;
+    background-image:url(img/pechuga.png);
+    background-size: cover;
+}
+.img5{
+    display: inline-block;
+    width: 32.5%;
+    height: 27.5%;
+    background-image:url(img/pechugadeshuesada.png);
+    background-size: cover;
+}
+.img6{
+    display: inline-block;
+    width: 32.5%;
+    height: 27.5%;
+    background-image:url(img/bife.png);
+    background-size: cover;
+}
+.img7{
+    display: inline-block;
+    width: 32.5%;
+    height: 27.5%;
+    background-image:url(img/milanesa.png);
+    background-size: cover;
+}
+.img8{
+    display: inline-block;
+    width: 32.5%;
+    height: 27.5%;
+    background-image:url(img/albondiga.png);
+    background-size: cover;
+}
+.img9{
+    display: inline-block;
+    width: 32.5%;
+    height: 27.5%;
+    background-image:url(img/arrollado.png);
+    background-size:cover;
+}
+.Detalle{
+    display: inline-block;
+    width: 63%;
+    height: 65%;
+    border-radius: 15px;
+    border: black solid;
+    font-size: 20px;
+}
+ol{
+    margin-left: 5%;
+}
+ul{
+    margin-left: 5%;
+}
+.Footer{
+    float: left;
+    width: 65%;
+    height: 25%;
+    background-color: #77DD77;
+    font-size: 25px;
+}
+.mapa{
+    display: inline-block;
+    width: 35%;
+    height: 25%;
+    background-size: cover;
+}
