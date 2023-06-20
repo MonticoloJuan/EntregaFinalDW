@@ -54,7 +54,7 @@ footer{
     grid-row: 4/5;
 }
 
-@media only screen and (max-width: 540px){
+@media only screen and (max-width: 480px){
     .grid-container{
         display: grid;
         grid-template-columns: 1fr 1fr;
