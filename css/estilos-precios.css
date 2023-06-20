@@ -9,7 +9,7 @@ body{
 }
 .grid-container{
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-columns: 2fr 3fr 3fr 2fr;
     grid-template-rows: 0.2fr 0.2fr 4.22fr 1fr;
 }
 header{
@@ -40,6 +40,7 @@ nav{
     grid-column: 3/4;
     grid-row: 3/4;
     margin: 10px;
+    margin-bottom: 50%;
 }
 footer{
     background-color: #77DD77;
@@ -75,6 +76,7 @@ footer{
         grid-row: 4/5;
         margin-left: 10px !important;
         margin-right: 10px !important;
+        margin-bottom: 0;
     }
     .mapa{
         grid-column: 1/3;
