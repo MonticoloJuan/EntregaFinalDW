@@ -1,18 +1,16 @@
 $font-family_1: 'Montserrat', sans-serif;
 $background-color_1: #77DD77;
 
-
-
+* {
+	padding: 0;
+	margin: 0;
+}
 @mixin Generacion-Tabla (){
     text-align: center;
 	border-collapse: separate;
 	border: black 5px solid;
 	border-radius: 3px;
 	margin: 10px;
-}
-* {
-	padding: 0;
-	margin: 0;
 }
 body {
 	font-family: $font-family_1;
