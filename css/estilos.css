@@ -78,11 +78,11 @@ footer {
   transition: transform 2s;
 }
 
-.zoom:hover {
+.mapa:hover {
   transform: scale(1.5);
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 480px) {
   .grid-container {
     display: grid;
     grid-template-areas: "header" "nav" "detalle" "muestra" "mapa" "footer";
