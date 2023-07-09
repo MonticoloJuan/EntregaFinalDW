@@ -47,6 +47,14 @@ nav {
   grid-row: 3/4;
 }
 
+.zoom {
+  transition: transform 1s;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+}
+
 footer {
   background-color: #77DD77;
   font-size: 25px;
