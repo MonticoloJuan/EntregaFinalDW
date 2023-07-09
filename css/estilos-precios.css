@@ -35,7 +35,6 @@ nav {
   margin: 10px;
   grid-column: 2/3;
   grid-row: 3/4;
-  scale: 1;
 }
 
 .tabla2 {
@@ -46,11 +45,6 @@ nav {
   margin: 10px;
   grid-column: 3/4;
   grid-row: 3/4;
-  transition: transform 2s;
-}
-
-.tabla2:hover {
-  transform: scale(1.5);
 }
 
 footer {
