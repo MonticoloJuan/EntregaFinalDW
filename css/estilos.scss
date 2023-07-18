@@ -10,14 +10,14 @@ $background-color_3: #77DD77;
 }
 body {
 	font-family: $font-family_1;
-	background: linear-gradient(violet,red,orange,yellow,white);
+	background: linear-gradient(#FF9B9B,#FFD6A5,#FFFEC4,#CBFFA9);
 }
 .grid-container {
 	display: grid;
 	grid-template-areas: 'header header header header header' 
-                         'nav nav nav nav nav' 
-                         'muestra detalle detalle detalle detalle' 
-                         'footer footer footer footer mapa'; 
+                        'nav nav nav nav nav' 
+                        'muestra detalle detalle detalle detalle' 
+                        'footer footer footer footer mapa'; 
 }
 header {
 	display: flex;
@@ -80,10 +80,10 @@ footer {
 	.grid-container {
 		display: grid;
 		grid-template-areas: 'header' 
-                             'nav' 
-                             'detalle' 
-                             'muestra' 
-                             'mapa' 
-                             'footer';
+                            'nav' 
+                            'detalle' 
+                            'muestra' 
+                            'mapa' 
+                            'footer';
 	}
 }

@@ -5,7 +5,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background: linear-gradient(violet, red, orange, yellow, white);
+  background: linear-gradient(#FF9B9B, #FFD6A5, #FFFEC4, #CBFFA9);
 }
 
 .grid-container {
